@@ -49,7 +49,7 @@ img {
         padding: 10px;
     }
     img {
-        max-width: 100%;
+        max-width: 90%;
     }
     nav ul li {
         display: block; /* Stack navigation items on mobile */
