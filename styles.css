@@ -43,3 +43,16 @@ img {
     height: auto;
     border-radius: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    img {
+        max-width: 100%;
+    }
+    nav ul li {
+        display: block; /* Stack navigation items on mobile */
+        margin: 10px 0;
+    }
+}
